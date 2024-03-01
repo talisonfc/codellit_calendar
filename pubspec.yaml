@@ -1,0 +1,67 @@
+name: codelitt_calendar_ui
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 1.0.2
+  http: 1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  integration_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/empty_state.png
+    - assets/images/logo.png
+
+  fonts:
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/Open_Sans/OpenSans-Bold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-BoldItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-Italic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-Light.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-LightItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-Medium.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-MediumItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-Regular.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-SemiBold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf
+          style: italic
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato/Lato-Black.ttf
+        - asset: assets/fonts/Lato/Lato-BlackItalic.ttf
+        - asset: assets/fonts/Lato/Lato-Bold.ttf
+        - asset: assets/fonts/Lato/Lato-BoldItalic.ttf
+        - asset: assets/fonts/Lato/Lato-Italic.ttf
+        - asset: assets/fonts/Lato/Lato-Light.ttf
+        - asset: assets/fonts/Lato/Lato-LightItalic.ttf
+        - asset: assets/fonts/Lato/Lato-Regular.ttf
+        - asset: assets/fonts/Lato/Lato-Thin.ttf
+        - asset: assets/fonts/Lato/Lato-ThinItalic.ttf
+          weight: 700
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-Black.ttf
+        - asset: assets/fonts/Inter/Inter-Bold.ttf
+        - asset: assets/fonts/Inter/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter/Inter-ExtraLight.ttf
+        - asset: assets/fonts/Inter/Inter-Light.ttf
+        - asset: assets/fonts/Inter/Inter-Medium.ttf
+        - asset: assets/fonts/Inter/Inter-Regular.ttf
+        - asset: assets/fonts/Inter/Inter-SemiBold.ttf
+        - asset: assets/fonts/Inter/Inter-Thin.ttf
